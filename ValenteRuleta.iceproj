@@ -29,6 +29,9 @@
     <Content Include="css\font-awesome.css">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="css\PoetsenOne-Regular 5.ttf">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="css\Site.css">
       <SubType>Content</SubType>
     </Content>
@@ -36,6 +39,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="css\Style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\telechica.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\telegrande.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\totem.css">
       <SubType>Content</SubType>
     </Content>
     <Content Include="img\AdelanteMisValentes.png">

@@ -56,10 +56,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Probando</title>
+    <meta name="description" content="Ruleta">
+    <meta name="author" content="Woopin - NaomiPassarelli">
+    <title>Jackpot - TTM</title>
     <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link href='~/Content/PoetsenOne-Regular_5.ttf' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1280px)' href='~/Content/totem.css' />
+    <link rel='stylesheet' media='screen and (min-width: 1281px) and (max-width: 1366px)' href='~/Content/telechica.css' />
+    <link rel='stylesheet' media='screen and (min-width: 1367px) and (max-width: 1981px)' href='~/Content/telegrande.css' />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/Style.css">
@@ -75,14 +79,14 @@
         </div>
 
 
-        <div class="row">
+        <!--<div class="row">
                 <div id="logoValente"></div>
         </div>
         
 
         <div class="row">
             <div id="spot"></div>
-        </div>
+        </div>-->
 
 
         <div id="slotsSelectorWrapper" class="slotMachine1 reelSet1" data-machine="1" data-reel="1">
@@ -91,7 +95,7 @@
                     
                     <!-- Just to be able to set the "won!" extra background -->
                     <div class="row list-game">
-                        <div id="slotMachineContainer" class="col-md-5 col-xs-11 col-sm-7">
+                        <div id="slotMachineContainer" class="col-md-7 col-xs-11 col-sm-7">
 
                             <div id="ReelContainer">
                                 <div id="reel1" class="reel"></div>
@@ -100,14 +104,12 @@
                                 <div id="reelOverlay"></div>
                             </div>
 
-                            <div id="mark-win">
+                            <!--<div id="mark-win">
 
-                            </div>
+                            </div>-->
 
                             <div id="failedRequestMessage" style="display: none;">
-                                <span class="large">Sorry, we're unable to display your spin because your connection to our server was lost. </span><br>
-                                Rest assured that your spin was not wasted.
-                                Please check your connection and <a href="#" onclick="window.location.reload();">refresh</a> to try again.
+                                <span class="large">Volve a intentar por favor </span><br>
                             </div>
 
                             <!--@*<div id="betContainer">
@@ -233,11 +235,16 @@
 
 
                     <div class="row spinResult">
-                        <span id="result">GANASTE</span>
+                        <span id="result"></span>
                     </div>
 
                     <div class="row button">
                         <a id="spinButton">Jugar</a>
+                    </div>
+
+
+                    <div class="row frase">
+                        <span>¡Con Valente ganás cientos de miles de pesos en premios!</span>
                     </div>
 
                     <!--@*<div id="soundOffButton"></div>*@
@@ -255,13 +262,13 @@
             </div>
         </div>
 
-        <div class="row frase">
+        <!--<div class="row frase">
             <span >¡Con Valente ganás cientos de miles de pesos en premios!</span>
         </div>
 
         <div class="row footer">
             <span >www.alimentosvalente.com</span>
-        </div>
+        </div>-->
 
     </section>
 
