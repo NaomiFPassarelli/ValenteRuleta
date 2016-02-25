@@ -1,0 +1,63 @@
+﻿@media all and (max-width: 1280px) {
+
+    .row.frase {
+        margin: 16% 0 0 0;
+        font-family: PoetsenOne;
+        color: #ffffff;
+        font-size: 60px;
+        text-align: center;
+    }
+
+
+    #slot_machines_container {
+        height: 2165px !important;
+    }
+
+    #slot_machines_backgrounds #changeable_background_1 { 
+        background-image: url('../Images/fondo_totem.png');
+    }
+
+    #SlotsOuterContainer {
+        background: url('../Images/maquina_totem.png') no-repeat;
+        background-size: 100%;
+        background-position: 0px 123px;
+    }
+
+    #SlotsOuterContainer {
+        min-height: 1575px;
+        height: 1449px;
+    }
+
+    .row.list-game {
+        height: 1087px;
+        padding: 57.5% 0 0 0;
+        width: 100%;
+        margin: 0 0 80px 223px;
+    }
+
+    .row.button {
+        margin: 0% 23% 0 19%;
+    }
+
+    .spinResult {
+        margin: 0% 20% 8% 17% !important;
+        padding: 1% 0%;
+        border: 3px solid #000;
+    }
+
+    .spinResult #result {
+        font-size: 50px;
+        height: 75px;
+    }
+
+    #slotMachineContainer #ReelContainer {
+        width: 99% !important;
+        margin-left: 7px;
+    }
+
+    #slotsSelectorWrapper.reelSet1 #ReelContainer .reel {
+        background-size: 236px !important;
+    }
+
+
+}
