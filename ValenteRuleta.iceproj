@@ -23,16 +23,19 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="App_Resources\Android\drawable-hdpi\splashscreen.9.png" />
+    <Content Include="App_Resources\Android\drawable-mdpi\splashscreen.9.png" />
+    <Content Include="App_Resources\Android\drawable-xhdpi\icon.png" />
+    <Content Include="App_Resources\Android\drawable-xhdpi\splashscreen.9.png" />
+    <Content Include="App_Resources\Android\drawable-xxhdpi\icon.png" />
+    <Content Include="App_Resources\Android\drawable-xxxhdpi\icon.png" />
     <Content Include="css\bootstrap.css">
       <SubType>Content</SubType>
     </Content>
     <Content Include="css\font-awesome.css">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="css\PoetsenOne-Regular 5.ttf">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="css\Site.css">
+    <Content Include="css\PoetsenOne-Regular_5.ttf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="css\Slots.css">
@@ -44,25 +47,33 @@
     <Content Include="css\telechica.css">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="css\telegrande.css">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="css\totem.css">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\AdelanteMisValentes.png">
+    <Content Include="css\totemMin.css">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\logoValente.png">
+    <Content Include="img\fondo_tele.png" />
+    <Content Include="img\fondo_televisor.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\prizes_sprites.png">
+    <Content Include="img\fondo_totem.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\fondo_totem768.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\jackpot_tele.png" />
+    <Content Include="img\maquina_televisor.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\maquina_totem.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\premios.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="img\Reel2.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="img\reel_strip.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="js\jquery-1.8.2.js">
@@ -77,13 +88,7 @@
     <Content Include="js\jquery.autogrow.js">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="js\slotmachineswitcher.js">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="js\slots.js">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="js\soundmanager2.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="js\ui.functions.js">
@@ -100,7 +105,6 @@
     <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
-    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
     <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
     <Resource Include="App_Resources\iOS\Default-667h.png" />
     <Resource Include="App_Resources\iOS\Default-736h.png" />
@@ -148,8 +152,6 @@
     <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
     <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
     <Content Include="css\index.css" />
-    <Content Include="img\cordova.png" />
-    <Content Include="img\logo.png" />
     <Content Include="js\common.functions.js">
       <SubType>Content</SubType>
     </Content>
@@ -162,6 +164,9 @@
     <Folder Include="App_Resources\Android\drawable-ldpi\" />
     <Folder Include="App_Resources\Android\drawable-mdpi\" />
     <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\Android\drawable-xhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-xxhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-xxxhdpi\" />
     <Folder Include="App_Resources\iOS\" />
     <Folder Include="App_Resources\WP8\" />
     <Folder Include="App_Resources\WP8\Assets\" />
@@ -170,7 +175,6 @@
     <Folder Include="css\" />
     <Folder Include="img\" />
     <Folder Include="js\" />
-    <Folder Include="views\" />
     <Folder Include="Plugins\" />
   </ItemGroup>
   <Import Project="$(IceniumTargets)Build.targets" />

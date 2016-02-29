@@ -1,57 +1,5 @@
-﻿<!--<!DOCTYPE html>-->
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
-<!--<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World!</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
-</html>-->
-
-
-
-
-
-<!--@Styles.Render("~/Content/bootstrap.css")
-@Styles.Render("~/Content/font-awesome.css")
-@Styles.Render("~/Content/Style.css")
-@Styles.Render("~/Content/Slots.css")-->
-
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,10 +8,10 @@
     <meta name="author" content="Woopin - NaomiPassarelli">
     <title>Jackpot - TTM</title>
     <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-    <link href='~/Content/PoetsenOne-Regular_5.ttf' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1280px)' href='~/Content/totem.css' />
-    <link rel='stylesheet' media='screen and (min-width: 1281px) and (max-width: 1366px)' href='~/Content/telechica.css' />
-    <link rel='stylesheet' media='screen and (min-width: 1367px) and (max-width: 1981px)' href='~/Content/telegrande.css' />
+    <link href='/css/PoetsenOne-Regular_5.ttf' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' media='screen and (max-width: 770px)' href='/css/totemMin.css' />
+    <link rel='stylesheet' media='screen and (min-width: 771px) and (max-width: 1290px)' href='/css/totem.css' />
+    <link rel='stylesheet' media='screen and (min-width: 1291px) and (max-width: 1366px)' href='/css/telechica.css' />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/Style.css">
@@ -77,23 +25,15 @@
                 <div id="changeable_background_1" data-id="1" class="changeable_background"></div>
             </div>
         </div>
-
-
-        <!--<div class="row">
-                <div id="logoValente"></div>
-        </div>
-        
-
-        <div class="row">
-            <div id="spot"></div>
-        </div>-->
-
-
         <div id="slotsSelectorWrapper" class="slotMachine1 reelSet1" data-machine="1" data-reel="1">
             <div id="SlotsOuterContainer">
+                <div id="SlotsFirstContainer">
+                    <div class="row frase tele">
+                        <span>¡Con Valente ganás cientos de miles de pesos en premios!</span>
+                    </div>
+                </div>
+
                 <div id="SlotsInnerContainer">
-                    
-                    <!-- Just to be able to set the "won!" extra background -->
                     <div class="row list-game">
                         <div id="slotMachineContainer" class="col-md-7 col-xs-11 col-sm-7">
 
@@ -104,186 +44,41 @@
                                 <div id="reelOverlay"></div>
                             </div>
 
-                            <!--<div id="mark-win">
-
-                            </div>-->
-
                             <div id="failedRequestMessage" style="display: none;">
                                 <span class="large">Volve a intentar por favor </span><br>
                             </div>
-
-                            <!--@*<div id="betContainer">
-            <span id="lastWin"></span>
-            <span id="credits">64</span>
-            <span id="bet">1</span>
-            <span id="dayWinnings">0</span>
-            <span id="lifetimeWinnings">15</span>
-            <div id="betSpinUp"></div>
-            <div id="betSpinDown"></div>
-        </div>*@
-
-
-        @*<a id="jugarButton">Jugar</a>*@
-
-        @*<div id="spinButton"></div>*@-->
                         </div>
-                        <!--
-                        <div id="prizes_list" class="col-md-2">
-                            <div>
 
-                                <div id="trPrize_32" class="trPrize row">
-                                    <div class="tdReels">
-                                        <div class="reel1 reelIcon prize_6"></div>
-                                        <div class="reel2 reelIcon prize_6"></div>
-                                        <div class="reel3 reelIcon prize_6"></div>
-                                        <div class="clearer"></div>
-                                    </div>
-                                    <span class="tdPayout" data-basepayout="200.00">1°</span>
-                                    <div class="clearer"></div>
-                                </div>
-
-
-                                <div id="trPrize_33" class="trPrize row">
-                                    <div class="tdReels">
-                                        <div class="reel1 reelIcon prize_4"></div>
-                                        <div class="reel2 reelIcon prize_4"></div>
-                                        <div class="reel3 reelIcon prize_4"></div>
-                                        <div class="clearer"></div>
-                                    </div>
-                                    <span class="tdPayout" data-basepayout="50.00">2°</span>
-                                    <div class="clearer"></div>
-                                </div>
-
-
-                                <div id="trPrize_37" class="trPrize row">
-                                    <div class="tdReels">
-                                        <div class="reel1 reelIcon prize_2"></div>
-                                        <div class="reel2 reelIcon prize_2"></div>
-                                        <div class="reel3 reelIcon prize_2"></div>
-                                        <div class="clearer"></div>
-                                    </div>
-                                    <span class="tdPayout" data-basepayout="20.00">3°</span>
-                                    <div class="clearer"></div>
-                                </div>
-
-
-                                <div id="trPrize_34" class="trPrize row">
-                                    <div class="tdReels">
-                                        <div class="reel1 reelIcon prize_5"></div>
-                                        <div class="reel2 reelIcon prize_5"></div>
-                                        <div class="reel3 reelIcon prize_5"></div>
-                                        <div class="clearer"></div>
-                                    </div>
-                                    <span class="tdPayout" data-basepayout="15.00">4°</span>
-                                    <div class="clearer"></div>
-                                </div>
-
-
-                                <div id="trPrize_38" class="trPrize row">
-                                    <div class="tdReels">
-                                        <div class="reel1 reelIcon prize_1"></div>
-                                        <div class="reel2 reelIcon prize_1"></div>
-                                        <div class="reel3 reelIcon prize_1"></div>
-                                        <div class="clearer"></div>
-                                    </div>
-                                    <span class="tdPayout" data-basepayout="14.00">5°</span>
-                                    <div class="clearer"></div>
-                                </div>
-
-
-                                <div id="trPrize_35" class="trPrize row">
-                                    <div class="tdReels">
-                                        <div class="reel1 reelIcon prize_3 "></div>
-                                        <div class="reel2 reelIcon prize_3 "></div>
-                                        <div class="reel3 reelIcon prize_3 "></div>
-                                        <div class="clearer"></div>
-                                    </div>
-                                    <span class="tdPayout" data-basepayout="12.00">6°</span>
-                                    <div class="clearer"></div>
-                                </div>
-
-
-                                <div id="trPrize_41" class="trPrize row">
-                                    <div class="tdReels">
-                                        <div class="reel1 reelIcon prize_1slash3slash5"></div>
-                                        <div class="reel2 reelIcon prize_1slash3slash5"></div>
-                                        <div class="reel3 reelIcon prize_1slash3slash5"></div>
-                                        <div class="clearer"></div>
-                                    </div>
-                                    <span class="tdPayout" data-basepayout="7.00">7°</span>
-                                    <div class="clearer"></div>
-                                </div>
-
-
-                                <!--@*<div id="trPrize_45" class="trPrize row">
-                <div class="tdReels">
-                    <div class="reel1 reelIcon prize_stardot5"></div>
-                    <div class="reel2 reelIcon prize_stardot5"></div>
-                    <div class="reel3 reelIcon prize_stardot5"></div>
-                    <div class="clearer"></div>
-                </div>
-                <span class="tdPayout" data-basepayout="4.00">4</span>
-                <div class="clearer"></div>
-            </div>*@
-
-                            </div>
-
+                        <div class="row spinResult">
+                            <span id="result"></span>
                         </div>
--->
 
+                        <div class="row button">
+                            <a id="spinButton">Jugar</a>
+                        </div>
+
+                        <div class="row frase">
+                            <span>¡Con Valente ganás cientos de miles de pesos en premios!</span>
+                        </div>
+
+                        <script type="text/javascript">
+                            var numIconsPerReel = 3;
+                        </script>
                     </div>
-
-
-                    <div class="row spinResult">
-                        <span id="result"></span>
-                    </div>
-
-                    <div class="row button">
-                        <a id="spinButton">Jugar</a>
-                    </div>
-
-
-                    <div class="row frase">
-                        <span>¡Con Valente ganás cientos de miles de pesos en premios!</span>
-                    </div>
-
-                    <!--@*<div id="soundOffButton"></div>*@
-
-                    @*<div id="tryMe" style="left: 747.86px;"></div>*@-->
-
-                    <script type="text/javascript">
-                        var machineName = 'slotmachine1';
-                        var minBet = 1;
-                        var maxBet = 10;
-                        var numIconsPerReel = 6;
-                        var windowID = 12549;
-                    </script>
                 </div>
             </div>
         </div>
-
-        <!--<div class="row frase">
-            <span >¡Con Valente ganás cientos de miles de pesos en premios!</span>
-        </div>
-
-        <div class="row footer">
-            <span >www.alimentosvalente.com</span>
-        </div>-->
-
     </section>
 
 
 
     <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.8.24.js"></script>
-    <!--<script type="text/javascript" src="js/soundmanager2.js"></script>-->
     <script type="text/javascript" src="js/slots.js"></script>
-    <script type="text/javascript" src="js/slotmachineswitcher.js"></script>
     <script type="text/javascript" src="js/jquery.autogrow.js"></script>
     <script type="text/javascript" src="js/jquery.accordion.js"></script>
     <script type="text/javascript" src="js/common.functions.js"></script>
     <script type="text/javascript" src="js/ui.functions.js"></script>
-
 
     <script src="/js/jquery-ui-1.8.24.js" type="text/javascript">
 

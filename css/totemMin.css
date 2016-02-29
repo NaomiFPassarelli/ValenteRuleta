@@ -1,0 +1,73 @@
+﻿@media all and (max-width: 770px) {
+    body {
+        width: 768px;
+        height: 1280px;
+    }
+
+    .row.frase.tele {
+        display: none;
+    }
+
+    .row.frase {
+        margin: 16% 0 0 0;
+        font-family: PoetsenOne;
+        color: #ffffff;
+        font-size: 35px;
+        text-align: center;
+    }
+
+
+    #slot_machines_container {
+        height: 1280px !important;
+        width: 768px;
+    }
+
+    #slot_machines_backgrounds #changeable_background_1 { 
+        background-image: url('/img/fondo_totem768.png');
+    }
+
+    #SlotsOuterContainer {
+        background: url('/img/jackpot_tele.png') no-repeat;
+        background-size: 100%;
+        background-position: 4px 180px;
+        min-height: 1280px;
+        height: 1280px;
+    }
+
+    .row.list-game {
+        height: 666px;
+        padding: 58.5% 0 0 0;
+        width: 100%;
+        /*margin: 0 0 80px 223px;*/
+    }
+
+    .row.button {
+        margin: 0% 23% 0 21%;
+    }
+
+    .spinResult {
+        margin: 40% 20% 6% 19% !important;
+        padding: 1% 0%;
+        border: 3px solid #000;
+    }
+
+    .spinResult #result {
+        font-size: 37px;
+        height: 40px;
+    }
+
+    #slotMachineContainer #ReelContainer {
+        width: 99% !important;
+        margin-left: 7px;
+    }
+
+    #slotsSelectorWrapper.reelSet1 #ReelContainer .reel {
+        background-size: 144px !important;
+    }
+    
+    .row.list-game #slotMachineContainer 
+    {
+        margin: 0 0 80px 134px;
+    }
+
+}

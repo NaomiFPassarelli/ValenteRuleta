@@ -1,14 +1,10 @@
 ﻿html, body {
-	/*background: #e8e8e8 url("../img/bg_header.jpg") top center no-repeat;*/
 	margin: 0;
 	padding:0;
 	font-family: arial;
 	font-size: 14px;
 	color: #000;
-	/*min-width: 1010px;*/
-    min-width: 100%;
-    min-height: 100%;
-    height: 100%;
+	min-width: 1010px;
 }
 div.clearfix {
 	clear:both;
@@ -25,16 +21,12 @@ h2 {
 	font-size: 40px;
 	font-weight: normal;
 }
-/* -------- layout --------*/
-.container {
-
-}
 .container header#header {
 	height: 177px;
 	margin: 0 auto;
 	max-width: 1000px;
 	position: relative;
-	z-index: 10; /* have the headline show on top of the slot machine */
+	z-index: 10;
 }
 .container header#header .logo{
 	float:left;
@@ -122,92 +114,9 @@ h2 {
 
 #slot_machines_container {
 	background: #ccc;
-	height: 100%;
-    /*height:800px;*/
-    min-height: 100%;
+	/*height: 800px;*/
 	position: relative;
 }
-/* rest of the style on slots.css */
-
-
-/*#tryMe {
-	position: absolute;
-	width: 143px; height: 116px;
-	/*background: url("/img/try_me.png") top left no-repeat;
-	top: 615px; left: 740px;
-}*/
-
-/*.black_bar #tryMe {
-	top: 0px; left: 800px;
-}*/
-
-/*-------------------------------------------*/
-
-/*.container .black_bar {
-	height: 71px;
-	max-width: 960px;
-	background: #3c3c3c; /* Old browsers
-	background: -moz-linear-gradient(top, #3c3c3c 1%, #020202 100%); /* FF3.6+
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#3c3c3c), color-stop(100%,#020202)); /* Chrome,Safari4+
-	background: -webkit-linear-gradient(top, #3c3c3c 1%,#020202 100%); /* Chrome10+,Safari5.1+
-	background: -o-linear-gradient(top, #3c3c3c 1%,#020202 100%); /* Opera 11.10+
-	background: -ms-linear-gradient(top, #3c3c3c 1%,#020202 100%); /* IE10+
-	background: linear-gradient(to bottom, #3c3c3c 1%,#020202 100%); /* W3C
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#020202',GradientType=0 ); /* IE6-9
-	margin: -15px auto 0;
-	font-family: "Trebuchet MS";
-	color: #fff;
-	font-size: 47px;
-	font-style: italic;
-	padding: 12px 20px;
-	position: relative; z-index: 10; /* show on top of the slot machine
-}
-.container .black_bar p {
-	margin: 4px 0 0;
-	padding: 4px 0 0;
-	float: left;
-}
-.container .black_bar .options {
-	float:right;
-	font-size: 28px;
-	height: 70px;
-}
-.container .black_bar .options ul{
-	margin:0;
-	padding:0;
-	list-style: none;
-}
-.container .black_bar .options ul li{
-	display: inline-block;
-	vertical-align: middle;
-}
-.container .black_bar .options ul li.try_it{ padding-right: 55px; }
-.container .black_bar .options ul li a{
-	width:70px;
-	padding: 0 5px;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 10px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: normal;
-	text-align: center;
-	font-style: normal;
-	background: url("../img/selectors.png") 50% 38px no-repeat #131313;
-	display: block;
-	height: 72px;
-}
-.container .black_bar .options ul li a:hover {
-	color: #f8ff3e;
-	box-shadow: 0 0 10px #f8ff3e;
-	background: url("../img/selectors.png") 50% -52px no-repeat #131313;
-}
-.container .black_bar .options ul li div p {
-	margin: 0;
-	padding: 0;
-}*/
-
-/*-------------------------------------------*/
 
 .container section#main_content {
 	background: url("../img/shad.png") top center no-repeat;
